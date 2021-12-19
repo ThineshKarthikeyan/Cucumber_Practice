@@ -1,0 +1,128 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19380900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches flipkart application",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_launches_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80059800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials and click login",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_enters_credentials_and_click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37357366600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Mobile search validation",
+        "description": "",
+        "id": "title-of-your-feature;mobile-search-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 700872100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94498400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user searching mobile",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_searching_mobile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3356329500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choosing a mobile click add to cart",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_choosing_a_mobile_and_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 958498700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "navigate into add to cart and check the order status",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.navigate_into_add_to_cart_and_check_the_order_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/SearchingThings.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
