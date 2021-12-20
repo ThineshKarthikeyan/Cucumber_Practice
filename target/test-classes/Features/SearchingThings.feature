@@ -9,9 +9,9 @@ Feature: Title of your feature
     And user enters credentials and click login
 
   Scenario: Mobile search validation
-    When user searching mobile
-    And user choosing a mobile click add to cart
-    Then navigate into add to cart and check the order status
+    #When user searching mobile
+    #And user choosing a mobile click add to cart
+    #Then navigate into add to cart and check the order status
     
   #Scenario: Mobile search validation
     #When user searching mobile using one dimensional list
@@ -29,16 +29,16 @@ Feature: Title of your feature
     #And user choosing a mobile click add to cart
     #Then navigate into add to cart and check the order status
     
-  #Scenario Outline: Mobile search validation
-    #When user searching mobile using multiple inputs "<phones>"
-    #And user choosing a mobile click add to cart
-    #Then navigate into add to cart and check the order status
-    #
-    #Examples:
-#			 |phones|
-  #		 |Samsung|
- #		   |Oppo|
-   #		 |Vivo|
-   #		 |Redmi|
-   #
+  Scenario Outline: Mobile search validation
+    When user searching mobile using multiple inputs "<phones>"
+    And user choosing a mobile click add to cart
+    Then navigate into add to cart and check the order status
+    
+    Examples:
+			 |phones|
+  		 |Samsung|
+ 		   |Oppo|
+   		 |Vivo|
+   		 |Redmi|
+   
 
