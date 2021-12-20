@@ -8,7 +8,7 @@ Feature: Title of your feature
 		 Given user launches flipkart application
     And user enters credentials and click login
 
-  Scenario: Mobile search validation
+  #Scenario: Mobile search validation
     #When user searching mobile
     #And user choosing a mobile click add to cart
     #Then navigate into add to cart and check the order status

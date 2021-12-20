@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12537500,
+              "duration": 15703500,
               "status": "passed"
             },
             "line": 8,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 81421300,
+              "duration": 61962000,
               "status": "passed"
             },
             "line": 9,
@@ -39,7 +39,7 @@
         "before": [
           {
             "result": {
-              "duration": 4944318000,
+              "duration": 6298872900,
               "status": "passed"
             },
             "match": {
@@ -47,14 +47,14 @@
             }
           }
         ],
-        "line": 11,
+        "line": 39,
         "name": "Mobile search validation",
         "description": "",
-        "id": "title-of-your-feature;mobile-search-validation",
+        "id": "title-of-your-feature;mobile-search-validation;;2",
         "after": [
           {
             "result": {
-              "duration": 667276000,
+              "duration": 659630800,
               "status": "passed"
             },
             "match": {
@@ -63,26 +63,32 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 84237200,
+              "duration": 78159700,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user searching mobile",
+            "line": 33,
+            "name": "user searching mobile using multiple inputs \"Samsung\"",
             "match": {
-              "location": "FlipkartMobileSearchSteps.user_searching_mobile()"
+              "arguments": [
+                {
+                  "val": "\"Samsung\"",
+                  "offset": 44
+                }
+              ],
+              "location": "FlipkartMobileSearchSteps.user_searching_mobile_using_multiple_inputs(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3300855500,
+              "duration": 3594830200,
               "status": "passed"
             },
-            "line": 13,
+            "line": 34,
             "name": "user choosing a mobile click add to cart",
             "match": {
               "location": "FlipkartMobileSearchSteps.user_choosing_a_mobile_and_click_add_to_cart()"
@@ -91,10 +97,346 @@
           },
           {
             "result": {
-              "duration": 961006000,
+              "duration": 595067000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 35,
+            "name": "navigate into add to cart and check the order status",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.navigate_into_add_to_cart_and_check_the_order_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 318500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches flipkart application",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_launches_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60038900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials and click login",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_enters_credentials_and_click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3741801000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Mobile search validation",
+        "description": "",
+        "id": "title-of-your-feature;mobile-search-validation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 653546700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81907100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user searching mobile using multiple inputs \"Oppo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oppo\"",
+                  "offset": 44
+                }
+              ],
+              "location": "FlipkartMobileSearchSteps.user_searching_mobile_using_multiple_inputs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3288789300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user choosing a mobile click add to cart",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_choosing_a_mobile_and_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619876600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "navigate into add to cart and check the order status",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.navigate_into_add_to_cart_and_check_the_order_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 610000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches flipkart application",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_launches_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61023400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials and click login",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_enters_credentials_and_click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3923782300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Mobile search validation",
+        "description": "",
+        "id": "title-of-your-feature;mobile-search-validation;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 645230600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 84626700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user searching mobile using multiple inputs \"Vivo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vivo\"",
+                  "offset": 44
+                }
+              ],
+              "location": "FlipkartMobileSearchSteps.user_searching_mobile_using_multiple_inputs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3257650300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user choosing a mobile click add to cart",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_choosing_a_mobile_and_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601923900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "navigate into add to cart and check the order status",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.navigate_into_add_to_cart_and_check_the_order_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 287900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches flipkart application",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_launches_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58605100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials and click login",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_enters_credentials_and_click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4116137500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Mobile search validation",
+        "description": "",
+        "id": "title-of-your-feature;mobile-search-validation;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 648223700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81017400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user searching mobile using multiple inputs \"Redmi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Redmi\"",
+                  "offset": 44
+                }
+              ],
+              "location": "FlipkartMobileSearchSteps.user_searching_mobile_using_multiple_inputs(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3058875600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user choosing a mobile click add to cart",
+            "match": {
+              "location": "FlipkartMobileSearchSteps.user_choosing_a_mobile_and_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625372600,
+              "status": "passed"
+            },
+            "line": 35,
             "name": "navigate into add to cart and check the order status",
             "match": {
               "location": "FlipkartMobileSearchSteps.navigate_into_add_to_cart_and_check_the_order_status()"
